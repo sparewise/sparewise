@@ -56,7 +56,8 @@ codex mcp add sparewise -- npx -y sparewise mcp
 
 ## Questions
 
-**Is it free?** Yes, free to use.
+**Is it free?** Yes, everything is free to use today. Later versions may add paid features; the
+version you have keeps the terms it came with (see [LICENSE](LICENSE)).
 
 **Where is the source code?** Sparewise is closed source. The "Source code" links that GitHub
 adds to every release contain only this README and the license files, not the program.
