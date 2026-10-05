@@ -1,0 +1,42 @@
+Sparewise — Proprietary Software License
+
+Copyright (c) 2026 aiagenticdeveloper. All rights reserved.
+
+This software, including its source code, object code, documentation and all
+related files (the "Software"), is proprietary and confidential. It is
+licensed, not sold.
+
+1. Permission to use. You may install and use the Software, in the form the
+   owner distributes it, on computers you own or control, for personal or
+   business purposes, subject to any further terms published with a release.
+
+2. Restrictions. Unless the owner gives written permission, you may not:
+   a. copy, publish, distribute, sublicense, rent, lend or sell the Software or
+      any part of it;
+   b. modify the Software or create works based on it;
+   c. reverse engineer, decompile or disassemble the Software, except to the
+      extent the law where you live allows it despite this restriction;
+   d. remove or change any copyright, trademark or other notice in it.
+
+3. Source code. Access to the source code does not grant any of the rights
+   above. The source code is confidential and may only be used by people the
+   owner has authorised.
+
+4. Third-party components. The Software includes components owned by others,
+   each under its own license; see THIRD-PARTY-NOTICES.md. Those licenses
+   apply to those components.
+
+5. Earlier public release. A first prototype of this project was briefly
+   published under the MIT License. That grant applies only to that published
+   version; it does not extend to this or any later version.
+
+6. No warranty. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR
+   A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+
+7. Limitation of liability. IN NO EVENT SHALL THE OWNER BE LIABLE FOR ANY CLAIM,
+   DAMAGES OR OTHER LIABILITY ARISING FROM THE SOFTWARE OR ITS USE, TO THE
+   EXTENT THE LAW ALLOWS.
+
+8. Termination. This license ends automatically if you break its terms; you
+   must then stop using the Software and delete your copies.
