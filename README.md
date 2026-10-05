@@ -2,39 +2,71 @@
 
 **See why your Windows drive is full, and free space safely.**
 
-Sparewise finds the space developer and AI tools leave behind (package caches,
-local AI models, Docker and WSL disks, browser and editor caches) as well as
-ordinary Windows clutter. It tells you what each item is, whether it comes back by
-itself, and frees it only when you say so. Anything it moves can be put back.
+Sparewise finds the space that developer and AI tools quietly fill: package caches, local AI
+models, Docker and WSL disks, browser and editor caches, plus ordinary Windows clutter. It tells
+you what each item is and whether it comes back by itself. It frees space only when you say so,
+and anything it moves can be put back.
 
-**[Download the latest version](../../releases/latest)**: Windows 10 and 11, x64 and ARM.
+**[⬇ Download for Windows](../../releases/latest/download/Sparewise-win-Setup.exe)** · [All downloads](../../releases/latest) · `npx sparewise` · Windows 10 and 11, x64 and ARM · Free
 
-## Why people use it
+---
 
-- **One answer to "why is my drive full?"** The drive in plain parts: what rebuilds itself, what can be downloaded again, what is Windows, and what exists only on this PC.
-- **"Free 20 GB"**: picks the smallest set of safe caches that reaches your goal.
-- **Nothing lost by mistake.** Every change goes to the Recycle Bin or an undo window. Sparewise never empties the bin and never deletes permanently.
-- **Honest results.** It measures what was actually freed. If a program had files open, it says which files stayed and why.
-- **No admin rights needed**, and no account.
-- **Private.** No telemetry; nothing is sent anywhere.
-- **Works with AI assistants.** Built-in MCP server for Claude, Cursor, VS Code, Claude Code and Codex. Agents can read and plan; they change the disk only within limits you set, and never permanently.
+## Quick start
 
-## Install
-
-| | |
+| You want | Do this |
 |---|---|
-| **Installer** (recommended) | `Sparewise-win-Setup.exe`: installs for you only, no admin prompt, updates itself |
-| **Portable** | `Sparewise-win-x64.zip` or `Sparewise-win-arm64.zip`: unzip and run `Sparewise.App.exe` |
+| **The app** (recommended) | Download [`Sparewise-win-Setup.exe`](../../releases/latest/download/Sparewise-win-Setup.exe) and run it. It installs for your account only, needs no admin rights, and updates itself. |
+| **No install** | Download [`Sparewise-win-x64.zip`](../../releases/latest/download/Sparewise-win-x64.zip) (or [`arm64`](../../releases/latest/download/Sparewise-win-arm64.zip) for ARM laptops), unzip it, and run `Sparewise.App.exe`. |
+| **Command line** | `npx sparewise`. Needs [Node.js](https://nodejs.org); see the [npm page](https://www.npmjs.com/package/sparewise). |
 
-Sparewise is not code-signed yet, so Windows may say **"Windows protected your PC"**.
-Choose **More info → Run anyway**. Every release lists SHA-256 checksums, so you can
-check that a download is the genuine one.
+**Windows may warn the first time** ("Windows protected your PC") because Sparewise is not
+code-signed yet. Choose **More info → Run anyway**. Each release lists SHA-256 checksums,
+so you can check that a download is the genuine one.
 
-## Help and feedback
+## What it finds
 
-- **Found a problem?** Choose *Report a problem* in the app, or [open an issue](../../issues/new). It fills in the version for you, and nothing about your PC is sent.
-- **Questions and ideas:** [Discussions](../../discussions).
+- **Developer caches:** npm, pnpm, Yarn, pip, uv, conda, Cargo, Go, Gradle, Maven, NuGet and more
+- **AI:** Ollama, LM Studio and Hugging Face models one by one, with when each was last loaded; caches of Cursor, Claude, Copilot, Codex and other AI coding tools
+- **Containers and virtual disks:** Docker and WSL disks that never shrink by themselves
+- **Windows:** temporary files, update leftovers, old installers in Downloads, browser caches, the Recycle Bin, hibernation file
+- **Your own files:** large videos, duplicates and folders you have not opened in months. Reported only: Sparewise never removes these by itself.
+
+## How it keeps you safe
+
+- **Scanning changes nothing.**
+- **It asks first,** every time.
+- **Everything can be put back.** Changes go to the Recycle Bin or an undo window. Sparewise never empties the Recycle Bin and never deletes permanently.
+- **Only things that come back by themselves** (caches that rebuild) are offered for clearing, each with a tested safety rule and the evidence behind it.
+- **Honest results.** It measures what was actually freed. Files a program has open stay where they are, and it says so.
+- **Private.** No account, no telemetry; nothing about your PC is sent anywhere.
+
+## For AI assistants
+
+Sparewise is also an MCP server, so Claude, Cursor, VS Code, Claude Code and Codex can ask why
+your drive is full, plan a cleanup and, only within limits you set, apply it. They can never
+delete anything permanently.
+
+- **In the app:** Settings → *Connect AI assistants*, one click per assistant.
+- **From a terminal:**
+
+```
+claude mcp add sparewise -- npx -y sparewise mcp
+codex mcp add sparewise -- npx -y sparewise mcp
+```
+
+## Questions
+
+**Is it free?** Yes, free to use.
+
+**Where is the source code?** Sparewise is closed source. The "Source code" links that GitHub
+adds to every release contain only this README and the license files, not the program.
+
+**Does it need administrator rights?** No. The few extras that use Windows' own admin tools (the
+fast drive map, Disk Cleanup) ask first, and you can say no.
+
+**Something went wrong or looks wrong?** Choose *Report a problem* in the app, or
+[open an issue](../../issues/new). Questions and ideas are welcome in [Discussions](../../discussions).
 
 ## License
 
-Sparewise is free to use. The source code is not public. See [LICENSE](LICENSE).
+Free to use; proprietary. See [LICENSE](LICENSE) and [third-party notices](THIRD-PARTY-NOTICES.md).
