@@ -9,6 +9,8 @@ and anything it moves can be put back.
 
 **[⬇ Download for Windows](../../releases/latest/download/Sparewise-win-Setup.exe)** · [All downloads](../../releases/latest) · `npx sparewise` · Windows 10 and 11, x64 and ARM · Free
 
+**[▶ Watch the 52-second video](docs/sparewise.mp4)**: what Sparewise finds, clears safely and can undo.
+
 ![Sparewise Home: how full the drive is, in parts, and how much can be freed safely](docs/home.png)
 
 ## Why Sparewise
