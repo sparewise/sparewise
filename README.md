@@ -81,6 +81,11 @@ fast drive map, Disk Cleanup) ask first, and you can say no.
 **Something went wrong or looks wrong?** Choose *Report a problem* in the app, or
 [open an issue](../../issues/new). Questions and ideas are welcome in [Discussions](../../discussions).
 
+## Like it?
+
+If Sparewise freed space for you, a ⭐ on this page helps other people find it.
+Problems and ideas are welcome in [Issues](../../issues).
+
 ## License
 
 Free to use; proprietary. See [LICENSE](LICENSE) and [third-party notices](THIRD-PARTY-NOTICES.md).
