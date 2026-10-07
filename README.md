@@ -13,7 +13,7 @@ and anything it moves can be put back.
 
 ## Why Sparewise
 
-- **Never deletes permanently.** Everything goes to the Recycle Bin or an undo window, and comes back with one click.
+- **What it removes can be put back.** It goes to the Recycle Bin or an undo window, and comes back with one click.
 - **Knows what rebuilds itself.** Only caches that come back on their own are offered, each with a tested rule, not a guess.
 - **Built for developers and AI users.** Model folders, Docker and WSL disks, and AI coding tools' caches, measured one by one.
 - **Explains a slow PC honestly.** A nearly full drive, memory that is really short, a program growing for days, a restart waiting. No "RAM booster" tricks.
@@ -48,7 +48,7 @@ so you can check that a download is the genuine one.
 
 - **Scanning changes nothing.**
 - **It asks first,** every time.
-- **Everything can be put back.** Changes go to the Recycle Bin or an undo window. Sparewise never empties the Recycle Bin and never deletes permanently.
+- **Everything can be put back.** What Sparewise removes goes to the Recycle Bin or an undo window, and it never empties the Recycle Bin. The one exception: Windows' own Disk Cleanup, which Sparewise can start for Windows Update leftovers, deletes permanently, and Windows asks for administrator permission first.
 - **Only things that come back by themselves** (caches that rebuild) are offered for clearing, each with a tested safety rule and the evidence behind it.
 - **Honest results.** It measures what was actually freed. Files a program has open stay where they are, and it says so.
 - **Private.** No account, no telemetry; nothing about your PC is sent anywhere.
