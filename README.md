@@ -9,6 +9,17 @@ and anything it moves can be put back.
 
 **[⬇ Download for Windows](../../releases/latest/download/Sparewise-win-Setup.exe)** · [All downloads](../../releases/latest) · `npx sparewise` · Windows 10 and 11, x64 and ARM · Free
 
+![Sparewise Home: how full the drive is, in parts, and how much can be freed safely](docs/home.png)
+
+## Why Sparewise
+
+- **Never deletes permanently.** Everything goes to the Recycle Bin or an undo window, and comes back with one click.
+- **Knows what rebuilds itself.** Only caches that come back on their own are offered, each with a tested rule, not a guess.
+- **Built for developers and AI users.** Model folders, Docker and WSL disks, and AI coding tools' caches, measured one by one.
+- **Explains a slow PC honestly.** A nearly full drive, memory that is really short, a program growing for days, a restart waiting. No "RAM booster" tricks.
+- **Works with your AI assistant.** Claude, Codex and other MCP clients can plan and free space, only within limits you set, with every change recorded and undoable.
+- **No telemetry, no account.** Nothing leaves your PC.
+
 ---
 
 ## Quick start
@@ -30,6 +41,8 @@ so you can check that a download is the genuine one.
 - **Containers and virtual disks:** Docker and WSL disks that never shrink by themselves
 - **Windows:** temporary files, update leftovers, old installers in Downloads, browser caches, the Recycle Bin, hibernation file
 - **Your own files:** large videos, duplicates and folders you have not opened in months. Reported only: Sparewise never removes these by itself.
+
+![What is using space: everything found, what can be cleared safely, and what grew since the last scan](docs/using-space.png)
 
 ## How it keeps you safe
 
