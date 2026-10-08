@@ -7,7 +7,7 @@ models, Docker and WSL disks, browser and editor caches, plus ordinary Windows c
 you what each item is and whether it comes back by itself. It frees space only when you say so,
 and anything it moves can be put back.
 
-**[⬇ Download for Windows](../../releases/latest/download/Sparewise-win-Setup.exe)** · [All downloads](../../releases/latest) · `npx sparewise` · Windows 10 and 11, x64 and ARM · Free
+**[Get it from the Microsoft Store](https://apps.microsoft.com/detail/9NHXHFH3CF1B)** · [Download the installer](../../releases/latest/download/Sparewise-win-Setup.exe) · [All downloads](../../releases/latest) · `npx sparewise` · Windows 10 and 11, x64 and ARM · Free
 
 **[▶ Watch the 52-second video](docs/sparewise.mp4)**: what Sparewise finds, clears safely and can undo.
 
@@ -28,12 +28,13 @@ and anything it moves can be put back.
 
 | You want | Do this |
 |---|---|
-| **The app** (recommended) | Download [`Sparewise-win-Setup.exe`](../../releases/latest/download/Sparewise-win-Setup.exe) and run it. It installs for your account only, needs no admin rights, and updates itself. |
+| **The app** (recommended) | Install from the [Microsoft Store](https://apps.microsoft.com/detail/9NHXHFH3CF1B): no warning from Windows, updates through the Store. |
+| **The app, direct download** | Download [`Sparewise-win-Setup.exe`](../../releases/latest/download/Sparewise-win-Setup.exe) and run it. It installs for your account only, needs no admin rights, and updates itself. |
 | **No install** | Download [`Sparewise-win-x64.zip`](../../releases/latest/download/Sparewise-win-x64.zip) (or [`arm64`](../../releases/latest/download/Sparewise-win-arm64.zip) for ARM laptops), unzip it, and run `Sparewise.App.exe`. |
 | **Command line** | `npx sparewise`. Needs [Node.js](https://nodejs.org); see the [npm page](https://www.npmjs.com/package/sparewise). |
 
-**Windows may warn the first time** ("Windows protected your PC") because Sparewise is not
-code-signed yet. Choose **More info → Run anyway**. Each release lists SHA-256 checksums,
+**The direct download may make Windows warn the first time** ("Windows protected your PC") because
+the installer is not code-signed yet (the Microsoft Store version is signed by Microsoft). Choose **More info → Run anyway**. Each release lists SHA-256 checksums,
 so you can check that a download is the genuine one.
 
 ## What it finds
