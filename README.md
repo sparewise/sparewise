@@ -18,6 +18,8 @@ and anything it moves can be put back.
 - **What it removes can be put back.** It goes to the Recycle Bin or an undo window, and comes back with one click.
 - **Knows what rebuilds itself.** Only caches that come back on their own are offered, each with a tested rule, not a guess.
 - **Built for developers and AI users.** Model folders, Docker and WSL disks, and AI coding tools' caches, measured one by one.
+- **Finds what you keep twice.** The same npm package in many projects, the same Python library in many environments, the same AI model in two tools, measured with what storing it once would save.
+- **Hibernates old projects.** An idle project becomes one checked archive without node_modules or build folders; open it to bring the project back.
 - **Explains a slow PC honestly.** A nearly full drive, memory that is really short, a program growing for days, a restart waiting. No "RAM booster" tricks.
 - **Works with your AI assistant.** Claude, Codex and other MCP clients can plan and free space, only within limits you set, with every change recorded and undoable.
 - **No telemetry, no account.** Nothing leaves your PC.
@@ -42,7 +44,8 @@ so you can check that a download is the genuine one.
 - **Developer caches:** npm, pnpm, Yarn, pip, uv, conda, Cargo, Go, Gradle, Maven, NuGet and more
 - **AI:** Ollama, LM Studio and Hugging Face models one by one, with when each was last loaded; caches of Cursor, Claude, Copilot, Codex and other AI coding tools
 - **Containers and virtual disks:** Docker and WSL disks that never shrink by themselves
-- **Windows:** temporary files, update leftovers, old installers in Downloads, browser caches, the Recycle Bin, hibernation file
+- **Projects and editors:** node_modules, virtual environments and build folders (never one you committed to git), old VS Code, Cursor and Windsurf extensions, git history waiting to be packed
+- **Windows:** installers apps keep after updating, temporary files, update leftovers, old installers in Downloads, browser caches, the Recycle Bin, hibernation file
 - **Your own files:** large videos, duplicates and folders you have not opened in months. Reported only: Sparewise never removes these by itself.
 
 ![What is using space: everything found, what can be cleared safely, and what grew since the last scan](docs/using-space.png)
