@@ -1,0 +1,20 @@
+{
+  "name": "sparewise",
+  "owner": {
+    "name": "Sparewise",
+    "url": "https://sparewise.app"
+  },
+  "metadata": {
+    "description": "Sparewise for Claude Code: why your Windows drive is full, and freeing space safely."
+  },
+  "plugins": [
+    {
+      "name": "sparewise",
+      "source": "./plugins/sparewise",
+      "description": "Ask Claude why your C: drive is full: caches that rebuild themselves, AI models, Docker and WSL disks, with a safety reason for each. Changes are reversible and only within the limits you set in Sparewise.",
+      "version": "0.3.42",
+      "homepage": "https://sparewise.app",
+      "keywords": ["disk space", "storage", "cache", "windows", "cleanup"]
+    }
+  ]
+}

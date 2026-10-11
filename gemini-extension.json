@@ -1,0 +1,12 @@
+{
+  "name": "sparewise",
+  "version": "0.3.42",
+  "description": "Why your Windows drive is full, and freeing space safely: caches that rebuild themselves, AI models, Docker and WSL disks.",
+  "mcpServers": {
+    "sparewise": {
+      "command": "npx",
+      "args": ["-y", "sparewise", "mcp"]
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

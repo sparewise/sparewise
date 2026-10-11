@@ -73,6 +73,12 @@ claude mcp add sparewise -- npx -y sparewise mcp
 codex mcp add sparewise -- npx -y sparewise mcp
 ```
 
+- **Claude desktop app:** download `sparewise-<version>.mcpb` from the [latest release](https://github.com/sparewise/sparewise/releases/latest) and double-click it.
+- **Claude Code plugin:** `/plugin marketplace add sparewise/sparewise`, then `/plugin install sparewise@sparewise`.
+- **Gemini CLI:** `gemini extensions install https://github.com/sparewise/sparewise`.
+
+Get Sparewise only from the [Microsoft Store](https://apps.microsoft.com/detail/9NHXHFH3CF1B), [GitHub releases](https://github.com/sparewise/sparewise/releases), [npm](https://www.npmjs.com/package/sparewise) or [sparewise.app](https://sparewise.app). Copies from anywhere else are not ours.
+
 ## Questions
 
 **Is it free?** Yes, everything is free to use today. Later versions may add paid features; the
