@@ -87,6 +87,9 @@ version you have keeps the terms it came with (see [LICENSE](LICENSE)).
 **Where is the source code?** Sparewise is closed source. The "Source code" links that GitHub
 adds to every release contain only this README and the license files, not the program.
 
+**Who makes it?** One independent developer, not a company. Sparewise is published as an individual on the
+Microsoft Store and here on GitHub, and it is free: no account, no ads, no tracking.
+
 **Does it need administrator rights?** No. The few extras that use Windows' own admin tools (the
 fast drive map, Disk Cleanup) ask first, and you can say no.
 
