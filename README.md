@@ -15,7 +15,7 @@ and anything it moves can be put back.
 
 ## Why Sparewise
 
-- **What it removes can be put back.** It goes to the Recycle Bin or an undo window, and comes back with one click.
+- **What it removes can be put back.** It goes to the Recycle Bin or is set aside, and comes back with one click.
 - **Knows what rebuilds itself.** Only caches that come back on their own are offered, each with a tested rule, not a guess.
 - **Built for developers and AI users.** Model folders, Docker and WSL disks, and AI coding tools' caches, measured one by one.
 - **Finds what you keep twice.** The same npm package in many projects, the same Python library in many environments, the same AI model in two tools, measured with what storing it once would save.
@@ -54,7 +54,7 @@ so you can check that a download is the genuine one.
 
 - **Scanning changes nothing.**
 - **It asks first,** every time.
-- **Everything can be put back.** What Sparewise removes goes to the Recycle Bin or an undo window, and it never empties the Recycle Bin. The one exception: Windows' own Disk Cleanup, which Sparewise can start for Windows Update leftovers, deletes permanently, and Windows asks for administrator permission first.
+- **Everything can be put back.** What Sparewise removes goes to the Recycle Bin or is set aside, and it never empties the Recycle Bin. The one exception: Windows' own Disk Cleanup, which Sparewise can start for Windows Update leftovers, deletes permanently, and Windows asks for administrator permission first.
 - **Only things that come back by themselves** (caches that rebuild) are offered for clearing, each with a tested safety rule and the evidence behind it.
 - **Honest results.** It measures what was actually freed. Files a program has open stay where they are, and it says so.
 - **Private.** No account, no telemetry; nothing about your PC is sent anywhere. It goes online only to check for its own updates (once a day, or never if you turn that off) and for things you ask for; see the [privacy page](https://sparewise.app/privacy/).
