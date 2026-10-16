@@ -13,6 +13,14 @@ and anything it moves can be put back.
 
 ![Sparewise Home: how full the drive is, in parts, and how much can be freed safely](docs/home.png)
 
+## C: drive full? Start here
+
+1. **Get it without installing:** download [`Sparewise-win-x64.zip`](../../releases/latest/download/Sparewise-win-x64.zip) (about 80 MB), unzip it and run `Sparewise.App.exe`. (Or the [Microsoft Store](https://apps.microsoft.com/detail/9NHXHFH3CF1B) version if there is room to install.)
+2. **Press Smart Scan.** It takes about a minute and changes nothing. Home then says how much can be freed safely and what it is.
+3. **Choose Review and do it.** Only caches that rebuild by themselves and old Windows temporary files are ticked. They go to the Recycle Bin, so **the space comes back when you empty the Recycle Bin**; until then everything can be put back.
+4. **Need space right now without removing anything?** *Free space now → Shrink unused folders* compresses folders you have not used in a month, like a zip file, and the space returns at once.
+5. **Still full?** It is usually one big thing: AI models, Docker or WSL disks, or a virtual machine. *What is using space* lists them largest first, each with the right way to shrink it (for example `docker system prune` and compacting the disk for Docker), because deleting those files directly can break the tool that made them.
+
 ## Why Sparewise
 
 - **What it removes can be put back.** It goes to the Recycle Bin or is set aside, and comes back with one click.
