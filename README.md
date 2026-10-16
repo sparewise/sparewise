@@ -29,7 +29,7 @@ and anything it moves can be put back.
 - **Finds what you keep twice.** The same npm package in many projects, the same Python library in many environments, the same AI model in two tools, measured with what storing it once would save.
 - **Hibernates old projects.** An idle project becomes one checked archive without node_modules or build folders; open it to bring the project back.
 - **Explains a slow PC honestly.** A nearly full drive, memory that is really short, a program growing for days, a restart waiting. No "RAM booster" tricks.
-- **Works with your AI assistant.** Claude, Codex and other MCP clients can plan and free space, only within limits you set, with every change recorded and undoable.
+- **Works with your AI assistant.** Claude, Codex and other MCP clients can plan and free space, only within limits you set, with every change recorded, and most of them can be undone.
 - **No telemetry, no account.** Nothing leaves your PC.
 
 ---
@@ -66,6 +66,7 @@ so you can check that a download is the genuine one.
 - **Only things that come back by themselves** (caches that rebuild) are offered for clearing, each with a tested safety rule and the evidence behind it.
 - **Honest results.** It measures what was actually freed. Files a program has open stay where they are, and it says so.
 - **Private.** No account, no telemetry; nothing about your PC is sent anywhere. It goes online only to check for its own updates (once a day, or never if you turn that off) and for things you ask for; see the [privacy page](https://sparewise.app/privacy/).
+- **Your choice, your backups.** Provided as is, without warranty. It changes nothing unless you confirm it or allow it in Settings; keep backups of anything you cannot afford to lose. See the [terms of use](https://sparewise.app/terms/) and the [license](LICENSE).
 
 ## For AI assistants
 

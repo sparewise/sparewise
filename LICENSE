@@ -40,13 +40,39 @@ licensed, not sold.
    it came with; nothing in this license obliges the owner to provide updates,
    support or any feature free of charge in the future.
 
-7. No warranty. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR
-   A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+7. No warranty. THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT
+   WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY AND
+   NON-INFRINGEMENT. The owner does not warrant that the Software is free of
+   errors, that its sizes, estimates, verdicts, explanations or suggestions are
+   correct or complete, or that any change it makes can be undone. Words such as
+   "safe", "rebuilds itself" or "can be put back" describe how the Software is
+   designed to work; they are not promises.
 
-8. Limitation of liability. IN NO EVENT SHALL THE OWNER BE LIABLE FOR ANY CLAIM,
-   DAMAGES OR OTHER LIABILITY ARISING FROM THE SOFTWARE OR ITS USE, TO THE
-   EXTENT THE LAW ALLOWS.
+8. Limitation of liability. TO THE FULLEST EXTENT THE LAW ALLOWS, THE OWNER
+   SHALL NOT BE LIABLE FOR ANY CLAIM, LOSS OR DAMAGES OF ANY KIND ARISING FROM
+   THE SOFTWARE OR ITS USE OR INABILITY TO USE IT, INCLUDING LOSS OF DATA,
+   FILES, PROGRAMS, SETTINGS, PROFITS OR TIME, AND ANY INDIRECT, INCIDENTAL,
+   SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, EVEN IF ADVISED OF THEIR
+   POSSIBILITY. WHERE THE LAW DOES NOT ALLOW LIABILITY TO BE EXCLUDED, IT IS
+   LIMITED TO THE AMOUNT YOU PAID FOR THE SOFTWARE, WHICH FOR A FREE VERSION IS
+   NOTHING. Nothing in this license limits rights you have under laws that
+   cannot be changed by agreement.
 
-9. Termination. This license ends automatically if you break its terms; you
+9. Your decisions and your data. The Software proposes; you decide. It changes
+   files, programs or settings only when you confirm a change, or when you
+   have chosen settings that let it (for example autopilot, or allowing AI
+   agents to apply changes without asking). You are responsible for those
+   choices, for reviewing what a change will do before confirming it, and for
+   keeping backups of anything you cannot afford to lose. Items moved to the
+   Recycle Bin or set aside may be removed for good by Windows, by emptying the
+   Recycle Bin, or when their holding period ends.
+
+10. Other tools and agents. Commands the Software shows for other programs (for
+   example docker, npm, winget or ollama) run those programs, under their own
+   terms, when you choose to run them. AI agents and other software that you
+   connect to the Software act on your instructions and under your settings;
+   the owner is not responsible for what they do.
+
+11. Termination. This license ends automatically if you break its terms; you
    must then stop using the Software and delete your copies.
