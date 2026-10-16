@@ -17,7 +17,7 @@ and anything it moves can be put back.
 
 1. **Get it without installing:** download [`Sparewise-win-x64.zip`](../../releases/latest/download/Sparewise-win-x64.zip) (about 80 MB), unzip it and run `Sparewise.App.exe`. (Or the [Microsoft Store](https://apps.microsoft.com/detail/9NHXHFH3CF1B) version if there is room to install.)
 2. **Press Smart Scan.** It takes about a minute and changes nothing. Home then says how much can be freed safely and what it is.
-3. **Choose Review and do it.** Only caches that rebuild by themselves and old Windows temporary files are ticked. They go to the Recycle Bin, so **the space comes back when you empty the Recycle Bin**; until then everything can be put back.
+3. **Choose Review and do it.** Only caches that rebuild by themselves and old Windows temporary files are ticked. They go to the Recycle Bin, so **the space comes back when you empty the Recycle Bin**; until then you can put it back.
 4. **Need space right now without removing anything?** *Free space now → Shrink unused folders* compresses folders you have not used in a month, like a zip file, and the space returns at once.
 5. **Still full?** It is usually one big thing: AI models, Docker or WSL disks, or a virtual machine. *What is using space* lists them largest first, each with the right way to shrink it (for example `docker system prune` and compacting the disk for Docker), because deleting those files directly can break the tool that made them.
 
@@ -62,7 +62,7 @@ so you can check that a download is the genuine one.
 
 - **Scanning changes nothing.**
 - **It asks first,** every time.
-- **Everything can be put back.** What Sparewise removes goes to the Recycle Bin or is set aside, and it never empties the Recycle Bin. The one exception: Windows' own Disk Cleanup, which Sparewise can start for Windows Update leftovers, deletes permanently, and Windows asks for administrator permission first.
+- **Put back what you change.** What Sparewise removes goes to the Recycle Bin or is set aside, and it never empties the Recycle Bin. The one exception: Windows' own Disk Cleanup, which Sparewise can start for Windows Update leftovers, deletes permanently, and Windows asks for administrator permission first.
 - **Only things that come back by themselves** (caches that rebuild) are offered for clearing, each with a tested safety rule and the evidence behind it.
 - **Honest results.** It measures what was actually freed. Files a program has open stay where they are, and it says so.
 - **Private.** No account, no telemetry; nothing about your PC is sent anywhere. It goes online only to check for its own updates (once a day, or never if you turn that off) and for things you ask for; see the [privacy page](https://sparewise.app/privacy/).
