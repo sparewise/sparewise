@@ -1,6 +1,7 @@
 Sparewise — Proprietary Software License
 
-Copyright (c) 2026 aiagenticdeveloper. All rights reserved.
+Copyright (c) 2026 aiagenticdeveloper, who also publishes Sparewise in the
+Microsoft Store as sivasg ("the owner"). All rights reserved.
 
 This software, including its source code, object code, documentation and all
 related files (the "Software"), is proprietary and confidential. It is
@@ -13,7 +14,7 @@ license; if you do not agree with it, do not install or use the Software.
 
 2. Restrictions. Unless the owner gives written permission, you may not:
    a. copy, publish, distribute, sublicense, rent, lend or sell the Software or
-      any part of it;
+      any part of it, except copying it as needed to install, update and use it;
    b. modify the Software or create works based on it;
    c. reverse engineer, decompile or disassemble the Software, except to the
       extent the law where you live allows it despite this restriction;
@@ -48,7 +49,9 @@ license; if you do not agree with it, do not install or use the Software.
    errors, that its sizes, estimates, verdicts, explanations or suggestions are
    correct or complete, or that any change it makes can be undone. Words such as
    "safe", "rebuilds itself" or "can be put back" describe how the Software is
-   designed to work; they are not promises. You bear the entire risk as to the
+   designed to work; they are not promises. The same is true of every
+   description of how the Software behaves, in the Software, its
+   documentation, its website or its store listings. You bear the entire risk as to the
    results of using the Software.
 
 8. Limitation of liability. TO THE FULLEST EXTENT THE LAW ALLOWS, THE OWNER
@@ -61,9 +64,9 @@ license; if you do not agree with it, do not install or use the Software.
    NOTHING. Nothing in this license limits rights you have under laws that
    cannot be changed by agreement.
 
-9. Your decisions and your data. The Software proposes; you decide. It changes
-   files, programs or settings only when you confirm a change, or when you
-   have chosen settings that let it (for example autopilot, or allowing AI
+9. Your decisions and your data. The Software proposes; you decide. It is
+   designed to change files, programs or settings only when you confirm a
+   change, or when you have chosen settings that let it (for example autopilot, or allowing AI
    agents to apply changes without asking). You are responsible for those
    choices, for reviewing what a change will do before confirming it, and for
    keeping backups of anything you cannot afford to lose. Items moved to the
@@ -72,7 +75,9 @@ license; if you do not agree with it, do not install or use the Software.
 
 10. Other tools and agents. Commands the Software shows for other programs (for
    example docker, npm, winget or ollama) run those programs, under their own
-   terms, when you choose to run them. AI agents and other software that you
+   terms, when you choose to run them or ask the Software to run them for
+   you (for example updating an app with winget, which accepts that app's
+   license). AI agents and other software that you
    connect to the Software act on your instructions and under your settings;
    the owner is not responsible for what they do.
 
