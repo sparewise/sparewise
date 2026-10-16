@@ -76,12 +76,37 @@ license; if you do not agree with it, do not install or use the Software.
    connect to the Software act on your instructions and under your settings;
    the owner is not responsible for what they do.
 
-11. Termination. This license ends automatically if you break its terms; you
+11. Information, not advice. Sizes, verdicts, explanations, forecasts and
+   suggestions, including any that come from an AI model, are general
+   information to help you decide. They are not professional, technical,
+   legal or financial advice, and you should not rely on them alone.
+
+12. Not for critical systems. The Software is not designed or meant for
+   systems where a failure, a lost file or a wrong result could cause death,
+   injury, serious harm or serious financial loss, such as medical, safety,
+   industrial control or production servers. You use it on such systems
+   entirely at your own risk.
+
+13. Your responsibility to others. You use the Software only on computers
+   you own or are allowed to manage, and you follow the laws that apply to
+   you. To the extent the law allows, you agree to defend and hold the owner
+   harmless from claims by others, including your employer or the owners of
+   computers you manage, that arise from how you used the Software or from
+   breaking this license.
+
+14. Time to bring a claim. To the extent the law allows, any claim about the
+   Software must be brought within one year of the event it is about.
+
+15. Names. Names of other products and companies shown by the Software
+   belong to their owners and are used only to identify those products; no
+   endorsement or connection is implied.
+
+16. Termination. This license ends automatically if you break its terms; you
    must then stop using the Software and delete your copies. You may end it at
-   any time by uninstalling the Software. Sections 7, 8, 9, 10 and 12 continue
+   any time by uninstalling the Software. Sections 7 to 15 and 17 continue
    to apply after it ends.
 
-12. General. If you accept this license for an organisation, you confirm you
+17. General. If you accept this license for an organisation, you confirm you
    may do so on its behalf. This license, together with the privacy notice at
    https://sparewise.app/privacy/, is the whole agreement about the Software;
    the plain-language page at https://sparewise.app/terms/ summarises it, and
